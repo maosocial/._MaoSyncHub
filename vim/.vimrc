@@ -15,3 +15,6 @@ set hlsearch
 set encoding=utf-8
 set termencoding=utf-8
 set fileencodings=utf-8,gbk,latin1
+
+"配色方案
+colorscheme desert
