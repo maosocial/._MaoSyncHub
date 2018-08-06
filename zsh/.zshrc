@@ -18,7 +18,7 @@ alias mv="mv -i"
 #aotujump
 #. /usr/share/autojump/autojump.sh
 #fasd
-eval "$(fasd --init auto)"
+#eval "$(fasd --init auto)"
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -84,7 +84,7 @@ ZSH_THEME="ys"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git
+  git fasd
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -94,7 +94,7 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-#export LC_ALL=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
 #export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
