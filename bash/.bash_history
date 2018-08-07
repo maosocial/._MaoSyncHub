@@ -25,3 +25,31 @@ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - 
 chsh -s /bin/zsh 
 zsh
 logout
+ls -al
+zsh
+ls -al
+pwd
+ls -al
+top
+ps -ef
+ps
+cat /etc/shells 
+sh
+exit
+ls -al
+cd ~
+ls -al
+d
+ll 
+pwd
+tar --help
+man tar
+ps -ef
+top
+ls -al
+pwd
+top
+ps -ef
+mv .zshrc .zshrcback
+ll
+zsh
